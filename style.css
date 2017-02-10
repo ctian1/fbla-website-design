@@ -72,6 +72,7 @@ body {
   font-size: 30px;
   line-height: 1.3333333;
   border-radius: 6px;
+  margin: 0;
 }
 
 .arrow.arrow-down {
@@ -79,6 +80,7 @@ body {
   width: 50px;
   padding-top: 20px;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .test {
