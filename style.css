@@ -1,0 +1,124 @@
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  /*.navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }*/
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+}
+
+.jumbo {
+  background: #251a18 url('pic.jpg') no-repeat center center;
+  background-size: cover;
+  /*width: 100vw;*/
+  height: 100vh;
+}
+
+.jumbo > .container {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.enter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 75vh;
+}
+
+.enter > button {
+  padding: 20px 36px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+.arrow.arrow-down {
+  display: block;
+  width: 50px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.test {
+  padding-bottom: 300vh;
+}
+
+.col-lg-8.content, .col-lg-4.content, .col-lg-12.content {
+  margin-top: 9%;
+  margin-bottom: 9%;
+  padding: 0;
+  /*border: 4px solid #ffffff;
+  border-radius: 4px;*/
+}
+
+.row > .content:first-child {
+  padding-right: 16px;
+}
+
+.white-background {
+  background-color: #ffffff;
+}
+
+.content > .col-md-12 {
+  border: 4px solid #ffffff;
+  border-radius: 4px;
+  padding-bottom: 12px;
+}
+
+.gray-background{
+  background-color: #d3d3d3;
+}
+
+.events-content {
+  margin-top: 9%;
+  border: 4px solid #ffffff;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+.img-responsive:hover {
+  opacity:0.5;
+  position: relative;
+}
