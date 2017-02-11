@@ -49,10 +49,11 @@ body {
 }
 
 .jumbo {
-  background: #251a18 url('pic.jpg') no-repeat center center;
+  background: #251a18 url('beach.jpg') no-repeat center center;
   background-size: cover;
   /*width: 100vw;*/
   height: 100vh;
+  color: #000000;
 }
 
 .jumbo > .container {
