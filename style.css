@@ -130,6 +130,23 @@ body {
   position: relative;
 }
 
+.package {
+  text-align: center;
+}
+
+.package > ul {
+  text-align: left;
+}
+
+.package:not(:last-child) {
+  border-right: 2px solid #d3d3d3;
+}
+
+.starting-at {
+  font-size: 1.4em;
+  line-height: .1em;
+}
+
 .smaller {
   font-size: 0.7em;
 }
