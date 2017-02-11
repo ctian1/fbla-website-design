@@ -68,7 +68,7 @@ body {
   top: 75vh;
 }
 
-.enter > button {
+.enter > .btn {
   padding: 20px 36px;
   font-size: 30px;
   line-height: 1.3333333;
