@@ -84,8 +84,12 @@ body {
   margin: 0 auto;
 }
 
-.test {
+/*.test {
   padding-bottom: 300vh;
+}*/
+
+.intro {
+  margin-top: 3vw;
 }
 
 .col-lg-8.content, .col-lg-4.content, .col-lg-12.content {
